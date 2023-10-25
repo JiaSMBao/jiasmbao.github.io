@@ -114,12 +114,16 @@ function Work(){
 }
 .myImgClass{
    height: 100%;
-  width: 100%;}
+    width: 100%;
+    max-height: 700px;
+}
 .topcontainer{
 max-width: 1000px;
 object-fit: contain;
 display: flex;
-    justify-content: space-between;
+justify-content: space-between;
+ max-height: 500px;
+
 
     
 }
@@ -127,7 +131,7 @@ display: flex;
     text-align: right;
     padding: 20px;
     background-color: black;
-    max-height: 700px;
+    max-height: 500px;
 
     
 }
@@ -140,8 +144,7 @@ display: flex;
 </head>
 <body style = "background-color: #fffef9">
 <div class = "topcontainer">
-    <spacer></spacer>
-    <img class = "myImgClass"  id="myImg" src="IMG_4025.png">
+<img class = "myImgClass"  id="myImg" src="IMG_4025.png">
 
 <div class = "container">
     <p class = "containerText" id = "change-text">
